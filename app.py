@@ -1,6 +1,7 @@
 import random
 import streamlit as st
 
+# FIXME: Logic breaks here when a difficulty is selected the range for the difficulty is not updated.
 def get_range_for_difficulty(difficulty: str):
     if difficulty == "Easy":
         return 1, 20
@@ -28,7 +29,7 @@ def parse_guess(raw: str):
 
     return True, value, None
 
-
+# FIXME: Logic breaks here when guess is a string and secret is an int. The game should be consistent in how it compares guesses to the secret.
 def check_guess(guess, secret):
     if guess == secret:
         return "Win", "🎉 Correct!"
@@ -89,6 +90,7 @@ low, high = get_range_for_difficulty(difficulty)
 st.sidebar.caption(f"Range: {low} to {high}")
 st.sidebar.caption(f"Attempts allowed: {attempt_limit}")
 
+# FIXME: Logic breaks here when a difficulty is selected the range for the difficulty is not updated.
 if "secret" not in st.session_state:
     st.session_state.secret = random.randint(low, high)
 
@@ -131,6 +133,7 @@ with col2:
 with col3:
     show_hint = st.checkbox("Show hint", value=True)
 
+# FIXME: Logic breaks here when a difficulty is selected the range for the difficulty is not updated.
 if new_game:
     st.session_state.attempts = 0
     st.session_state.secret = random.randint(1, 100)

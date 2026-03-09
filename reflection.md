@@ -5,8 +5,10 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
-- List at least two concrete bugs you noticed at the start  
+- List at least two concrete bugs you noticed at the start.
   (for example: "the secret number kept changing" or "the hints were backwards").
+
+  1 bug I noticed was that the game was inccorectly advising me how much bigger or smaller to target each guess the more I tried, for instance if the secret number was 30 and I guessed 2 the game was telling me to guess lower. Another bug I noticed was that the different difficulty options werent working. Id press easy and be expected to guess a number between 1-20 but the secret numbers would still be completely randomized between 1-100.
 
 ---
 

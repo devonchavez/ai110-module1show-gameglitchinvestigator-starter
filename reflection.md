@@ -38,7 +38,8 @@ I was able to decide whether the bug was acutally fixed by reloading the website
 - In your own words, explain why the secret number kept changing in the original app.
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 - What change did you make that finally gave the game a stable secret number?
-I think the secret number kept changing because it created a new gameloop letting the user play over and over if they wanted. 
+
+I think the secret number kept changing because it created a new gameloop letting the user play over and over if they wanted. I fixed the hard coded value of the target guess to the low and high so that it corresponded correctly to the difficulty selected.
 
 ---
 
@@ -48,3 +49,5 @@ I think the secret number kept changing because it created a new gameloop lettin
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+I want to reuse the test case feature. Having AI run test cases saves a lot of time than having to do them by hand. I wish I would be more specific and intentional with what I wanted AI to do, it was really easy to get carried away and kind of "get a feel" that the code was right form just skimming and not thouroughly checking. This project helped me be more intentional with how to search for bugs and using AI generated code to give me a foundation on what needs to be fixed but not exacty always accurate so it always needs to be checked/ verified.

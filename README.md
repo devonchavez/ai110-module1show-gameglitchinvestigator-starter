@@ -26,12 +26,12 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ This is a guessing game where the user is supposed to accurately guess the target number and wins if guessed correctly ] Describe the game's purpose.
-- [  ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ Difficulty selected didnt correspond with target number, hints didnt point user to right direction, the target number was hard coded and not reliant on what the difficulty selected was ] Detail which bugs you found.
+- [ Changed the difficulty to not be hard coded and flipped the suggestions so that it correctly helps the user ] Explain what fixes you applied.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [  ] [Insert a screenshot of your fixed, winning game here]
 
 ## 🚀 Stretch Features
 

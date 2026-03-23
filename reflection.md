@@ -18,6 +18,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
+I used copilot as an agent to help me make the fixes I needed in my code. 1 example of an AI suggestion that was accurate to the desired outputs I wanted were the hints being flipped. One of the bugs was that whenever a hint was given after a guess it wouldnt be accurate to what was needed to point the user towards the right direction. For example if the target number was 80 and the user guessed 20 the suggestion that followed was to guess lower which would have been an incorrect statement. An example of when AI made an edit that was misleading was in the beginning when I had it refactor the logic. I initially wanted it to only move the logic to its right places but it had also started making edits at the same time, which was a good choice but I didnt want too much to be happening and a better transition from seeing what exactly had moved and not a combination of having to check what had been moved AND fixed. I was able to ask copilot to ONLY move the code and not start on any of the fixes yet. 
+
 ---
 
 ## 3. Debugging and testing your fixes
@@ -27,6 +29,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
+I was able to decide whether the bug was acutally fixed by reloading the website after saving the changes. I was able to manualling check if the difficulty was accurately depicting the range that corresponded with the difficulty by constantly creating a new game and seeing the new target number that was in the debuggers info. AI helped me understood the tests but I felt the fixes were also easily noticeable from my eyes.
+
 ---
 
 ## 4. What did you learn about Streamlit and state?
@@ -34,6 +38,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - In your own words, explain why the secret number kept changing in the original app.
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 - What change did you make that finally gave the game a stable secret number?
+I think the secret number kept changing because it created a new gameloop letting the user play over and over if they wanted. 
 
 ---
 

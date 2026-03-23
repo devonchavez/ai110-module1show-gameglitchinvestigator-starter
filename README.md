@@ -25,14 +25,13 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
+- [ This is a guessing game where the user is supposed to accurately guess the target number and wins if guessed correctly ] Describe the game's purpose.
+- [  ] Detail which bugs you found.
 - [ ] Explain what fixes you applied.
 
 ## 📸 Demo
 
-- [<img width="3420" height="2224" alt="image" src="https://github.com/user-attachments/assets/3ae0d7c1-c821-450a-90d6-e4d237224da1" />
-] [Insert a screenshot of your fixed, winning game here]
+- [ ] [Insert a screenshot of your fixed, winning game here]
 
 ## 🚀 Stretch Features
 
